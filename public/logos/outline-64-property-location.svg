@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" class="nc-icon-wrapper">
+    <path d="M2 28L32 4l30 24"/>
+    <path stroke-linecap="square" d="M10 30v30h28"/>
+    <circle cx="50" cy="43" r="4" stroke-linecap="square"/>
+    <path stroke-linecap="square" d="M62 42.688C62 49.9 50 61 50 61S38 49.9 38 42.688C38 35.292 44.2 31 50 31s12 4.292 12 11.688z"/>
+  </g>
+</svg>
