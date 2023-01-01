@@ -1,5 +1,5 @@
 import { Col, Container, Modal, Row } from "react-bootstrap";
-import { RoomModalProps } from "../domain/domain";
+import { RoomModalProps } from "../../domain/domain";
 import Image from "next/image"
 import React from "react";
 

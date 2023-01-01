@@ -8,8 +8,9 @@ import { roomCardsData } from '../data/infoCardsData';
 
 export default function Home() {
   const elements = 
-  roomCardsData.map(el => 
+  roomCardsData.map((el, i) => 
       <RoomCard 
+        key={"RoomCard"+i}
         pictureSrc={el.pictureSrc}
         cardTitle={el.cardTitle}
         cardTxt={el.cardTxt}
