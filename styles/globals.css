@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
 }
 
+.blackLogo {
+  background-color: rgb(202, 202, 202);
+  border-radius: 50%;
+}
+
 .contactAdditionInfo {
   color: rgb(148, 148, 148)
 }
@@ -75,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  height: 15rem;
+  height: 10rem;
   z-index: 0;
   position: relative;
   width: 100%;

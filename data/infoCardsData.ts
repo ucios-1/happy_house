@@ -1,4 +1,4 @@
-import { InfoCardProps } from "../domain/domain";
+import { InfoCardProps, ModalData } from "../domain/domain";
 
 export const infoCardsData: InfoCardProps[] = [
     {
@@ -27,30 +27,175 @@ export const infoCardsData: InfoCardProps[] = [
     }
 ]
 
-export const roomCardsData: InfoCardProps[] = [
+export const roomCardsData: ModalData[] = [
     {
-        pictureSrc: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.1_l.jpg",
         cardTitle: "COMFORT",
-        cardTxt: "80 zł/doba",
+        modalTitle: "APARTAMENT TYPU COMFORT",
+        modalSubTitle: "Apartament z łóżkiem małżeńskim typu Comfort", 
+        modalPrice: "80",
+        modalRoomEquipment: [
+            "Darmowe Wi-Fi",
+            "Darmowa kawa",
+            "Darmowa herbata",
+            "Kuchnia z lodówką i mikrofalówką",
+            "Telewizja kablowa",
+            "Budzenie na życzenie",
+            "Żelazko",
+            "Suszarka do włosów",
+        ],
+        imageData: [
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.1_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.2_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim-ze-wspolna-lazienka.5_l.jpg",
+                alt: "dummy",
+            }
+        ]
     },
     {
-        pictureSrc: "/images/apartament-2-osobowy-z-lozkiem-malzenskim-i-osobna-lazienka.2_l.jpg",
         cardTitle: "MAŁŻENSKI",
-        cardTxt: "100 zł/doba",
+        modalTitle: "APARTAMENT TYPU MAŁŻENSKI",
+        modalSubTitle: "Apartament z łóżkiem małżeńskim typu Comfort", 
+        modalPrice: "100",
+        modalRoomEquipment: [
+            "Darmowe Wi-Fi",
+            "Darmowa kawa",
+            "Darmowa herbata",
+            "Kuchnia z lodówką i mikrofalówką",
+            "Telewizja kablowa",
+            "Budzenie na życzenie",
+            "Żelazko",
+            "Suszarka do włosów",
+        ],
+        imageData: [
+            {
+                path: "/images/apartament-2-osobowy-z-lozkiem-malzenskim-i-osobna-lazienka.2_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.1_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.2_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim-ze-wspolna-lazienka.5_l.jpg",
+                alt: "dummy",
+            }
+        ]
     },
     {
-        pictureSrc: "/images/apartament-typu-studio-z-duzym-lozkiem-i-rozkladana-sofa_l.jpg",
         cardTitle: "STUDIO",
-        cardTxt: "120 zł/doba",
+        modalTitle: "APARTAMENT TYPU STUDIO",
+        modalSubTitle: "Apartament z łóżkiem małżeńskim typu Comfort", 
+        modalPrice: "110",
+        modalRoomEquipment: [
+            "Darmowe Wi-Fi",
+            "Darmowa kawa",
+            "Darmowa herbata",
+            "Kuchnia z lodówką i mikrofalówką",
+            "Telewizja kablowa",
+            "Budzenie na życzenie",
+            "Żelazko",
+            "Suszarka do włosów",
+        ],
+        imageData: [
+            {
+                path: "/images/apartament-typu-studio-z-duzym-lozkiem-i-rozkladana-sofa_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.1_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.2_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim-ze-wspolna-lazienka.5_l.jpg",
+                alt: "dummy",
+            }
+        ]
     },
     {
-        pictureSrc: "/images/pokoj-4-osobowy-lozka-zwykle.6_l.jpg",
         cardTitle: "POKÓJ 3-OSOBOWY",
-        cardTxt: "100 zł/doba",
+        modalTitle: "APARTAMENT TYPU POKÓJ 3-OSOBOWY",
+        modalSubTitle: "Apartament z łóżkiem małżeńskim typu Comfort", 
+        modalPrice: "100",
+        modalRoomEquipment: [
+            "Darmowe Wi-Fi",
+            "Darmowa kawa",
+            "Darmowa herbata",
+            "Kuchnia z lodówką i mikrofalówką",
+            "Telewizja kablowa",
+            "Budzenie na życzenie",
+            "Żelazko",
+            "Suszarka do włosów",
+        ],
+        imageData: [
+            {
+                path: "/images/pokoj-4-osobowy-lozka-zwykle.6_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.1_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.2_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim-ze-wspolna-lazienka.5_l.jpg",
+                alt: "dummy",
+            }
+        ]
     },
     {
-        pictureSrc: "/images/pokoj-2-osobowy-lozka-zwykle_l.jpg",
         cardTitle: "POKÓJ 2-OSOBOWY / TWIN",
-        cardTxt: "99 zł/doba",
+        modalTitle: "APARTAMENT TYPU POKÓJ 2-OSOBOWY / TWIN",
+        modalSubTitle: "Apartament z łóżkiem małżeńskim typu Comfort", 
+        modalPrice: "99",
+        modalRoomEquipment: [
+            "Darmowe Wi-Fi",
+            "Darmowa kawa",
+            "Darmowa herbata",
+            "Kuchnia z lodówką i mikrofalówką",
+            "Telewizja kablowa",
+            "Budzenie na życzenie",
+            "Żelazko",
+            "Suszarka do włosów",
+        ],
+        imageData: [
+            {
+                path: "/images/pokoj-2-osobowy-lozka-zwykle_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.1_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim.2_l.jpg",
+                alt: "dummy",
+            },
+            {
+                path: "/images/comfort/apartament-2-osobowy-z-lozkiem-malzenskim-ze-wspolna-lazienka.5_l.jpg",
+                alt: "dummy",
+            }
+        ]
     }
 ]

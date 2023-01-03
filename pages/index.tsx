@@ -4,15 +4,9 @@ import styles from '../styles/Home.module.css'
 import TopNavbar from '../components/Navbar';
 import Cards from '../components/helping-components/CardsGrid';
 import Footer from '../components/Footer';
-import { Col, Container, Row } from 'react-bootstrap';
-import Image from "next/image";
 import Divider from '../components/helping-components/Divider';
-import { infoCardsData, roomCardsData } from "../data/infoCardsData";
-import InfoCard from '../components/helping-components/InfoCard';
+import { roomCardsData } from "../data/infoCardsData";
 import RoomCard from '../components/helping-components/RoomCard';
-import Location from "../public/logos/outline-64-property-location.svg";
-import Mobile from "../public/logos/outline-64-mobile-contact.svg";
-import Mail from "../public/logos/outline-64-at-sign.svg";
 import { PageNavigation } from '../domain/domain';
 import About from '../components/About';
 import HomeAnch from '../components/HomeAnch';
@@ -43,10 +37,12 @@ export default function Home() {
     roomCardsData.map((el, i) => 
       <RoomCard 
         key={"roomCards" + i}
-        pictureSrc={el.pictureSrc}
         cardTitle={el.cardTitle}
-        cardTxt={el.cardTxt}
-        link={el.link}
+        modalTitle={el.modalTitle}
+        modalSubTitle={el.modalSubTitle}
+        modalPrice={el.modalPrice}
+        modalRoomEquipment={el.modalRoomEquipment}
+        imageData={el.imageData}
       />
     )
 
