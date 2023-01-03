@@ -17,10 +17,22 @@ export type CardsGrid = {
 
 export type RoomModalProps = {
     show: boolean, 
-    dataToShow: {
-        title: string
-    }
+    dataToShow: ModalData,
     onHide: (() => void)
+}
+
+export type ModalData = {
+    cardTitle: string,
+    modalTitle: string,
+    modalSubTitle: string, 
+    modalPrice: string,
+    modalRoomEquipment: string[],
+    imageData: ImageModal[]
+}
+
+export type ImageModal = {
+    path: string, 
+    alt: string,
 }
 
 export type PageNavigation = {

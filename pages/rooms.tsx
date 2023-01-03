@@ -10,11 +10,13 @@ export default function Home() {
   const elements = 
   roomCardsData.map((el, i) => 
       <RoomCard 
-        key={"RoomCard"+i}
-        pictureSrc={el.pictureSrc}
+        key={"roomCards" + i}
         cardTitle={el.cardTitle}
-        cardTxt={el.cardTxt}
-        link={el.link}
+        modalTitle={el.modalTitle}
+        modalSubTitle={el.modalSubTitle}
+        modalPrice={el.modalPrice}
+        modalRoomEquipment={el.modalRoomEquipment}
+        imageData={el.imageData}
       />
     )
   
