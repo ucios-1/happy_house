@@ -5,7 +5,7 @@ import TopNavbar from '../components/Navbar';
 import Cards from '../components/helping-components/CardsGrid';
 import Footer from '../components/Footer';
 import Divider from '../components/helping-components/Divider';
-import { roomCardsData } from "../data/infoCardsData";
+import { roomCardsData } from "../data/roomsData";
 import RoomCard from '../components/helping-components/RoomCard';
 import { PageNavigation } from '../domain/domain';
 import About from '../components/About';

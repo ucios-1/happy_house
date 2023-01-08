@@ -23,15 +23,17 @@ export default function Contact () {
                     </div>
                   </Row>
                   <Row>
-                    <div className="col d-flex align-items-start">
-                      <div className="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <Mobile  className="iconYellow" />
+                    <a href="tel:+48 784-298-186" className="contactNumber">
+                      <div className="col d-flex align-items-start">
+                        <div className="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                          <Mobile  className="iconYellow" />
+                        </div>
+                        <div>
+                          <h5>Kom.</h5>
+                          <p>(+48) 784 298 186</p>
+                        </div>
                       </div>
-                      <div>
-                        <h5>Kom.</h5>
-                        <p>(+48) 784 298 186</p>
-                      </div>
-                    </div>
+                    </a>
                   </Row>
                   <Row>
                     <div className="col d-flex align-items-start">
