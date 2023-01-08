@@ -12,7 +12,9 @@ export default function RoomCard(props: ModalData) {
       <Card className="bg-light text-dark roomCard" >
           <Card.Header>{ props.cardTitle }</Card.Header>
           <Card.Body className="noPadding">
-              <Card.Img src={ mainPic?.path } onClick={() => showModal(true)} className="sharpEdges pointer" />
+            <div className="roomCardPictureContainer horizontalCenter">
+              <Card.Img src={ mainPic?.path } onClick={() => showModal(true)} className="sharpEdges roomCardPicture pointer" />
+            </div>
           </Card.Body>
           <div className="d-grid gap-2">
               <Button size="lg" variant="warning" className="sharpTopEdges">{ props.modalPrice } zł/doba</Button>

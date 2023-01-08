@@ -4,7 +4,7 @@ import TopNavbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cards from '../components/helping-components/CardsGrid';
 import RoomCard from '../components/helping-components/RoomCard';
-import { roomCardsData } from '../data/infoCardsData';
+import { roomCardsData } from '../data/roomsData';
 
 export default function Home() {
   const elements = 
