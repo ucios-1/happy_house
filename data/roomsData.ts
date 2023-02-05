@@ -3,8 +3,8 @@ import { ModalData } from "../domain/domain";
 export const roomCardsData: ModalData[] = [
     {
         cardTitle: "MAŁŻEŃSKI LUX",
-        modalTitle: "APARTAMENT MAŁŻEŃSKI",
-        modalSubTitle: "Apartament z łóżkiem DWUOSOBOWYM", 
+        modalTitle: "APARTAMENT TYPU STUDIO",
+        modalSubTitle: "z łóżkiem DWUOSOBOWYM", 
         modalPrice: "110",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
@@ -50,7 +50,7 @@ export const roomCardsData: ModalData[] = [
     {
         cardTitle: "STUDIO",
         modalTitle: "APARTAMENT TYPU STUDIO",
-        modalSubTitle: "Apartament z łóżkami pojedyńczymi", 
+        modalSubTitle: "z łóżkami pojedyńczymi", 
         modalPrice: "80",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
@@ -94,48 +94,10 @@ export const roomCardsData: ModalData[] = [
         ]
     },
     {
-        cardTitle: "COMFORT",
-        modalTitle: "APARTAMENT TYPU COMFORT",
-        modalSubTitle: "Apartament z łóżkiem małżeńskim", 
-        modalPrice: "80",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
-        imageData: [
-            {
-                path: "/images/pokoj_z_duzym_lozkiem/lozko_z_kotkiem_i_okno.jpg",
-                alt: "podwojne luzko i widok z okna",
-            },
-            {
-                path: "/images/pokoj_z_duzym_lozkiem/lozko_z_kotkiem_telewizor_i_okno.jpg",
-                alt: "podwojne luzko, okno i telewizor",
-            },
-            {
-                path: "/images/pokoj_z_duzym_lozkiem/lozko_z_kotkiem_i_obraz.jpg",
-                alt: "podwojne luzko, sciana z obrazem i szafa",
-            },
-            {
-                path: "/images/pokoj_z_duzym_lozkiem/lazienka_muszla_i_przysznic.jpg",
-                alt: "lazienka: muszla klozetowa, kabina prysznicowa i umywalka",
-            },
-            {
-                path: "/images/pokoj_z_duzym_lozkiem/lazinka_prysznic_i_umywalka.jpg",
-                alt: "lazienka: kabina prysznicowa, umywalka i lustro",
-            },
-        ]
-    },
-    {
-        cardTitle: "STANDART",
-        modalTitle: "POKÓJ TYPU STANDART",
+        cardTitle: "2-OSOBOWY",
+        modalTitle: "POKÓJ DWUOSOBOWY",
         modalSubTitle: "Pokój z łóżkiem pojedyńczymi", 
-        modalPrice: "80",
+        modalPrice: "od 140",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
             "Darmowa kawa",
@@ -178,10 +140,10 @@ export const roomCardsData: ModalData[] = [
         ]
     },
     {
-        cardTitle: "STANDART 3 OSOBOWY",
-        modalTitle: "POKÓJ TYPU STANDART",
-        modalSubTitle: "Pokój z łóżkiem pojedyńczymi", 
-        modalPrice: "80",
+        cardTitle: "3-OSOBOWY",
+        modalTitle: "POKÓJ TRZYOSOBOWY",
+        modalSubTitle: "ze wspólną łazienką", 
+        modalPrice: "od 170",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
             "Darmowa kawa",
@@ -220,10 +182,10 @@ export const roomCardsData: ModalData[] = [
         ]
     },
     {
-        cardTitle: "STANDART Z KOTKIEM",
-        modalTitle: "POKÓJ TYPU STANDART",
-        modalSubTitle: "Pokój z łóżkiem 2 osobowym", 
-        modalPrice: "80",
+        cardTitle: "COMFORT Z KOTKIEM",
+        modalTitle: "POKÓJ Z DUŻYM ŁÓŻKIEM",
+        modalSubTitle: "i wspólną łązienką", 
+        modalPrice: "od 150",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
             "Darmowa kawa",
@@ -263,9 +225,9 @@ export const roomCardsData: ModalData[] = [
     },
     {
         cardTitle: "STANDART Z BALKONEM",
-        modalTitle: "POKÓJ TYPU STANDART",
-        modalSubTitle: "Pokój z łóżkiem i balkonem", 
-        modalPrice: "80",
+        modalTitle: "POKÓJ Z DUŻYM ŁÓŻKIEM",
+        modalSubTitle: "i prywatną łazienką", 
+        modalPrice: "od 170",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
             "Darmowa kawa",

@@ -7,16 +7,14 @@ export default function TopNavbar (props: PageNavigationProps) {
     return <>
         <Navbar expand="lg" variant="light" sticky="top" className="navBar">
             <Container>
-                <Navbar.Brand href="#home">
-                    <a href="tel:+48 784-298-186" className="contactNumber">
-                        <Image 
-                            src="/images/happy_house_logo.png" 
-                            alt="Happy House Hostel logo" 
-                            width={50} 
-                            height={50} 
-                            priority
-                        />
-                    </a>
+                <Navbar.Brand href="tel:+48 784-298-186">
+                    <Image 
+                        src="/images/happy_house_logo.png" 
+                        alt="Happy House Hostel logo" 
+                        width={50} 
+                        height={50} 
+                        priority
+                    />
                 </Navbar.Brand>
                 <a href="tel:+48 784-298-186" className="contactNumber">(+48) 784 298 186</a>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
