@@ -5,7 +5,7 @@ export const roomCardsData: ModalData[] = [
         cardTitle: "MAŁŻEŃSKI LUX",
         modalTitle: "APARTAMENT TYPU STUDIO",
         modalSubTitle: "z łóżkiem DWUOSOBOWYM", 
-        modalPrice: "od 200",
+        modalPrice: "od 190",
         modalRoomEquipment: [
             "Darmowe Wi-Fi",
             "Darmowa kawa",
