@@ -10,7 +10,15 @@ export default function InfoCard(props: InfoCardProps) {
       <Card.Body>
         <Card.Title as="h5">{ props.cardTitle }</Card.Title>
         <Card.Text> { props.cardTxt } </Card.Text>
-        {props.link && <Card.Link href={props.link.goTo}>{props.link.txt}</Card.Link>}
+          { props.links && props.links.map((link, i) => 
+            <Card.Link 
+              key={ props.cardTitle + i.toString() } 
+              href={ link.goTo }
+              className="infoCardLinks"
+              >
+                { link.txt }
+            </Card.Link> )
+          }
       </Card.Body>
     </Card>
   );

@@ -1,11 +1,13 @@
+export type CardLink = {
+    goTo: string,
+    txt: string
+}
+
 export type InfoCardProps = {
     pictureSrc: any,
     cardTitle: string,
     cardTxt: string,
-    link?: {
-        goTo: string,
-        txt: string
-    },
+    links?: CardLink[],
     id?: string
 }
 
@@ -23,10 +25,11 @@ export type RoomModalProps = {
 
 export type ModalData = {
     cardTitle: string,
-    modalTitle: string,
-    modalSubTitle: string, 
+    modalTitle?: string,
+    modalSubTitle?: string, 
     modalPrice: string,
-    modalRoomEquipment: string[],
+    modalRoomEquipment?: string[],
+    modalRoomDescription?: string,
     imageData: ImageModal[]
 }
 

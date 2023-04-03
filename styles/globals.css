@@ -1,10 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
+:root {
+  --red-text: rgb(189, 54, 8);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
-  color: rgb(189, 54, 8);
+  color: var(--red-text);
 }
 
 .aboutAdvert {
@@ -59,9 +63,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .infoCard {
+  background-color: rgb(253, 250, 240);
   width: 14rem;
   height: 27rem;
   margin: 2rem;
+}
+
+.infoCardLinks {
+  display: block;
+  width: 100%;
+}
+
+.infoCardLinks.card-link {
+  margin: 0;
 }
 
 .horizontalCenter {
@@ -181,9 +195,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1rem 0;
 }
 
+.redBold {
+  font-weight: bold;
+  color: var(--red-text);
+}
+
 .resizePicture{
+  margin-top: 10%;
   width: 100%;
   height: auto;
+}
+
+.roomCardDescribe {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.7px;
 }
 
 .roomCardPicture {

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" class="nc-icon-wrapper">
+    <path stroke-linecap="square" d="M26 8v12M13 16v10M39 16v10"/>
+    <path stroke-linecap="square" d="M36 51H16C8.268 51 2 44.732 2 37v0h48v0c0 7.732-6.268 14-14 14z"/>
+    <path d="M48.652 43H59a3 3 0 003-3v0a3 3 0 00-3-3h-9"/>
+  </g>
+</svg>

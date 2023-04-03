@@ -46,7 +46,7 @@ export default function RoomModal(props: RoomModalProps) {
               <Container style={{padding: "0"}}>
                 { props.dataToShow.imageData.map((image, i) => 
                     <Image 
-                      key={image.path + i}
+                      key={image.path + i.toString()}
                       onClick={() => setPictSrc({path: image.path, alt: image.alt})} 
                       className="modalSmallPicture" 
                       src={image.path} 
@@ -61,9 +61,10 @@ export default function RoomModal(props: RoomModalProps) {
             <Col xs={12} md={6}>
               <h1 className="modalH1">{props.dataToShow.modalTitle}</h1>
               <h4>{props.dataToShow.modalSubTitle}</h4>
-              <h6 className="priceGreen">{props.dataToShow.modalPrice} zł/doba <span className="priceAdditional">w weekendy i okresie targowym cena ulega zmianie</span></h6>
+              <h6 className="priceGreen">{props.dataToShow.modalPrice} zł/doba. <span className="priceAdditional">Cena może ulec zmianie w zależności od okresu pobytu</span></h6>
+              <p className="roomCardDescribe" >{ props.dataToShow.modalRoomDescription }</p>
               <ul>
-                { props.dataToShow.modalRoomEquipment.map(el => 
+                { props.dataToShow.modalRoomEquipment && props.dataToShow.modalRoomEquipment.map(el => 
                   <li key={props.dataToShow.modalTitle+"#"+el}>
                     {el}
                   </li> ) 

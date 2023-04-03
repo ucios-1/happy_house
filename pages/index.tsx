@@ -36,12 +36,13 @@ export default function Home() {
   const rooms = 
     roomCardsData.map((el, i) => 
       <RoomCard 
-        key={"roomCards" + i}
+        key={"roomCards" + i.toString()}
         cardTitle={el.cardTitle}
         modalTitle={el.modalTitle}
         modalSubTitle={el.modalSubTitle}
         modalPrice={el.modalPrice}
         modalRoomEquipment={el.modalRoomEquipment}
+        modalRoomDescription={el.modalRoomDescription}
         imageData={el.imageData}
       />
     )
