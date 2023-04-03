@@ -1,8 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Image from "next/image";
 import { useState, useEffect } from 'react';
+import { HomeProps } from '../../domain/domain';
 
-export default function CarouselSlider() {
+export default function CarouselSlider(props: HomeProps) {
   const [windowSize, setWindowSize] = useState({
     width: 10,
     height: 10,
@@ -30,7 +31,7 @@ export default function CarouselSlider() {
   }, []); // Empty array ensures that effect is only run on mount
 
   return (
-    <Carousel variant="dark">
+    <Carousel id={props.id} variant="dark">
       <Carousel.Item>
         <Image 
             src="/images/pokoj_z_prywatna_lazienka/lozko_z_sowa_2_sciany_i_okno.jpg" 

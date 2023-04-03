@@ -19,9 +19,9 @@ export default function HomeAnch(props: HomeProps) {
         )
 
     return (
-        <div id={props.id}>
+        <div >
             <Cards elements={elements} className={"justify-content-around"}  />
-            <Divider />
+            <Divider id={props.id} />
             <Container className="homeAdvertContainer" id="cards">
                 <Row xs={1} sm="auto" md="2" className="justify-content-around">
                     <Col xs="auto" className="justify-content-center">
