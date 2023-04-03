@@ -10,11 +10,11 @@ export default function HomeAnch(props: HomeProps) {
     const elements = 
         infoCardsData.map((el, i) => 
         <InfoCard 
-            key={"InfoCard" + i}
+            key={"InfoCard" + i.toString()}
             pictureSrc={el.pictureSrc}
             cardTitle={el.cardTitle}
             cardTxt={el.cardTxt}
-            link={el.link}
+            links={el.links}
         />
         )
 
@@ -27,8 +27,9 @@ export default function HomeAnch(props: HomeProps) {
                     <Col xs="auto" className="justify-content-center">
                         <div>
                         <h2 className="homeAdvertHeader">Hostel w doskonałej lokalizacji</h2>
-                        <p>m.in. z parkiem Wilsona, Areną czy Międzynarodowymi Targami Poznańskimi. Szybki dojazd komunikacją miejską w każdy zakątek Poznania. W ofercie pokoje 2-8 osobowe oraz luksusowe i zarazem tanie noclegi w apartamentach.</p>
-                        <p>Sprawdź już teraz czy termin, który Cię interesuje jest dostępny.</p>
+                        <p>Happy House Hostel to doskonałe miejsce dla osób, które szukają komfortowego i przystępnego cenowo zakwaterowania <span className="redBold">w centrum Poznania</span>, co zapewnia łatwy dostęp do najważniejszych atrakcji turystycznych, sklepów, restauracji i parków miejskich.</p>
+                        <p>Hostel mieści się tuż obok <span className="redBold">Międzynarodowych Targów Poznańskich</span> oraz 10 min pieszo z <span className="redBold">Dworca Głównego w Poznaniu</span>. Zapraszamy zarówno tych, którzy przyjechali do Poznania w celach rekreacyjnych jak i tych, których przyjazd do naszego miasta zmusiła praca czy inne obowiązki.</p>
+                        <p>W pobliżu hostelu znajdują się dwa urokliwe parki: <span className="redBold">Park Wilsona i Park Kasprowicza</span>. Każdy z tych parków ma swój niepowtarzalny urok i oferuje wiele możliwości relaksu i zabawy na świeżym powietrzu</p>
                         </div>
                     </Col>
                     <Col xs="auto">

@@ -6,17 +6,12 @@ export default function About(props: AboutProps) {
     return (
         <div className={styles.container} id={props.id}>
           <Container className="aboutAdvert">
-            <h1>Hostel z apartamentami w Poznaniu</h1>
-            <p>&quot;Happy House&quot; to świetnie wyposażony Hostel oferujący tanie noclegi, do którego koniecznie musisz zajrzeć.</p>
-            <p>Bez względu na to, czy potrzebujesz prywatności, czy chcesz poznać nowych ciekawych ludzi, znajdziesz odpowiedni pokój dla siebie. Zapraszamy zarówno tych, którzy przyjechali do Poznania w celach rekreacyjnych jak i tych, których przyjazd do naszego miasta zmusiła praca czy inne obowiązki i chcieliby wyspać się w atrakcyjnym apartamencie.</p>
-          </Container>
-          <Container className="aboutAdvert">  
-            <h2>Dlaczego warto skorzystać z tanich noclegów w hostelu Happy House?</h2>
-            <p>Przede wszystkim gwarantujemy naszym Klientom niezwykle komfortowe warunki noclegowe, dzięki którym każdy może poczuć się jak u siebie w domu. Pokoje są odpowiednio wyposażone by spełniać wymagania nawet najbardziej wymagających Klientów.</p>
-            <p>Z pewnością naszym wielkim atutem jest lokalizacja. Nasz Hostel usytuowany jest w atrakcyjnym miejscu miasta Poznań.</p>
-            <p>Dodatkowym elementem, który wyróżnia Happy House Hostel to dostępność apartamentów. Hostel przy ul. Wyspiańskiego dysponuje dwoma apartamentami, dzięki którym nocleg staje się bardziej komfortowy. Nasze apartamenty oferują wysoki standard wyposażenia przy zachowaniu bardzo atrakcyjnych cen. Happy House Hostel oferuje bowiem tanie noclegi również w apartamentach.</p>
-            <p>Naszym Klientom dajemy możliwość rezerwacji noclegów on-line lub też telefonicznie.</p>
-            <p>Jeśli interesują Cię tanie noclegi w Poznaniu skontaktuj się z Nami, znajdziesz nas również w Google wpisując popularne frazy związane z naszą działalnością typu: &quot;Apartamenty Poznań&quot; czy &quot;tanie noclegi Poznań&quot;!</p>
+            <h1>Kameralny hostel - idealne miejsce na wypoczynek</h1>
+            <p>Zapraszamy do naszego hostelu, który oferuje komfortowe warunki oraz bogate wyposażenie, aby Twój pobyt był niezapomniany. Nasz hostel położony jest <span className="redBold">w centrum miasta</span>, co umożliwia łatwy dostęp do wielu atrakcji turystycznych oraz sklepów i restauracji.</p>
+            <p>Wszystkie nasze pokoje są przestronne i wyposażone w <span className="redBold">wygodne łóżka</span> oraz mają dostęp do <span className="redBold">wspólnej lub prywatnej łazienki</span>. Zapewniamy także <span className="redBold">świeżą pościel oraz ręczniki</span> dla każdego z naszych gości. Dla komfortu naszych klientów udostępniamy bezpłatny dostęp do WiFi w całym hostelu.</p>
+            <p>Nasz hostel posiada także w pełni <span className="redBold">wyposażoną kuchnię</span>, gdzie nasi goście mogą przygotowywać własne posiłki. Zapewniamy także <span className="redBold">bezpłatną kawę i herbatę</span> przez cały dzień.</p>
+            <p>W trosce o naszych gości, nasz personel jest zawsze do dyspozycji, aby pomóc w organizacji wycieczek, rezerwacji biletów lub innych potrzebnych informacji.</p>
+            <p>Zapraszamy serdecznie do naszego hostelu, gdzie zadbamy o Twój komfort i satysfakcję podczas pobytu w naszym mieście</p>
           </Container>
         </div>
     )

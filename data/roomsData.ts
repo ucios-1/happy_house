@@ -2,112 +2,9 @@ import { ModalData } from "../domain/domain";
 
 export const roomCardsData: ModalData[] = [
     {
-        cardTitle: "MAŁŻEŃSKI LUX",
-        modalTitle: "APARTAMENT TYPU STUDIO",
-        modalSubTitle: "z łóżkiem DWUOSOBOWYM", 
-        modalPrice: "od 190",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
-        imageData: [
-            {
-                path: "/images/apartament_z_duzym_lozkiem/sofa.jpg",
-                alt: "czerwona sofa, komoda, telewizor i lustro",
-            },
-            {
-                path: "/images/apartament_z_duzym_lozkiem/luzko_i_szafa.jpg",
-                alt: "podwojne luzko, i szafa",
-            },
-            {
-                path: "/images/apartament_z_duzym_lozkiem/luzko.jpg",
-                alt: "podwojne luzko i scianka dekoracyjna",
-            },
-            {
-                path: "/images/apartament_z_duzym_lozkiem/kuchnia_z_lampa.jpg",
-                alt: "stół obiadowy na 4 osoby, elektryczna kuchenka, mikrofala, mała lodówka, szafki i lampa stojąca",
-            },
-            {
-                path: "/images/apartament_z_duzym_lozkiem/lazienka_umywalka.jpg",
-                alt: "lazienka: umywalka i lustro",
-            },
-            {
-                path: "/images/apartament_z_duzym_lozkiem/lazienka_kabina_i_muszla.jpg",
-                alt: "lazienka: otwarta kabina prysznicowa i muszla klozetowa",
-            },
-            {
-                path: "/images/apartament_z_duzym_lozkiem/lazienka_kabina_otwarta_i_muszla.jpg",
-                alt: "lazienka: zamknięta kabina prysznicowa i muszla klozetowa",
-            },
-        ]
-    },
-    {
-        cardTitle: "STUDIO",
-        modalTitle: "APARTAMENT TYPU STUDIO",
-        modalSubTitle: "z łóżkami pojedyńczymi", 
-        modalPrice: "od 190",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
-        imageData: [
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/jadalnia_studio.jpg",
-                alt: "studio: stół obiadowy i 4 krzesła, sofa, stolik i okno",
-            },
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/widok_z_okna.jpg",
-                alt: "sofa, stolik i widok z okna",
-            },
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/lozka.jpg",
-                alt: "studio: 2 łóżka rozdzielone stolikiem dekoracyjnym",
-            },
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/lozka_okna.jpg",
-                alt: "studio: 2 łóżka, widok z oknami",
-            },
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/kuchnia.jpg",
-                alt: "kuchnia: elektryczna kuchenka z piekarnikiem, mała lodówka, zlew, kuchneka",
-            },
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/prysznic.jpg",
-                alt: "lazienka: kabina prysznicowa, pułka",
-            },
-            {
-                path: "/images/apartament_z_lozkami_pojedynczymi/zlew_muszla.jpg",
-                alt: "lazienka: lustro, umywalka, muszla klozetowa i półka",
-            },
-        ]
-    },
-    {
-        cardTitle: "2-OSOBOWY",
-        modalTitle: "POKÓJ DWUOSOBOWY",
-        modalSubTitle: "Pokój z łóżkiem pojedyńczymi", 
-        modalPrice: "od 140",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
+        cardTitle: "Pokój dwuosobowy typu Twin",
+        modalPrice: "Od 120",
+        modalRoomDescription: "Oferujemy przestronny pokój dwuosobowy z łóżkami pojedynczymi i dostępem do wspólnej łazienki i kuchni. Wyposażenie pokoju zawiera dwa wygodne łóżka z czystą pościelą i ręcznikami, szafki nocne, telewizor, stół obiadowy z krzesłami oraz wieszak. W pokoju znajduje się również czajnik oraz zapas kawy, herbaty i cukru. W hostelu zapewniamy także dostęp do dwóch czystych łazienek oraz w pełni wyposażonej kuchni, co pozwala na przygotowanie własnych posiłków w wygodny sposób",
         imageData: [
             {
                 path: "/images/pokoj_dwuosobowy/lozko_stolik_lampka_kwiatek.jpg",
@@ -140,20 +37,9 @@ export const roomCardsData: ModalData[] = [
         ]
     },
     {
-        cardTitle: "3-OSOBOWY",
-        modalTitle: "POKÓJ TRZYOSOBOWY",
-        modalSubTitle: "ze wspólną łazienką", 
-        modalPrice: "od 170",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
+        cardTitle: "Pokój trzyosobowy",
+        modalRoomDescription: "Oferujemy przestronny pokój trzyosobowy z łóżkami pojedynczymi i dostępem do dwóch wspólnych łazienek oraz wyposażonej kuchni. Wyposażenie pokoju zawiera trzy wygodne łóżka z czystą pościelą i ręcznikami, szafki nocne, telewizor, lustro, stół obiadowy z krzesłami oraz wieszak. W pokoju znajduje się również czajnik oraz zapas kawy, herbaty i cukru",
+        modalPrice: "Od 160",
         imageData: [
             {
                 path: "/images/pokoj_trzyosobowy/luzka_i_okno.jpg",
@@ -182,20 +68,9 @@ export const roomCardsData: ModalData[] = [
         ]
     },
     {
-        cardTitle: "COMFORT Z KOTKIEM",
-        modalTitle: "POKÓJ Z DUŻYM ŁÓŻKIEM",
-        modalSubTitle: "i wspólną łązienką", 
-        modalPrice: "od 150",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
+        cardTitle: "Pokój dwuosobowy typu Double",
+        modalRoomDescription: "Oferujemy komfortowy pokój dwuosobowy z łóżkiem podwójnym. Wyposażenie pokoju zawiera wygodne łóżko małżeńskie z czystą pościelą i ręcznikami, szafki nocne, telewizor, lustro, stół obiadowy z krzesłami oraz wieszak. W pokoju znajduje się również czajnik oraz zapas kawy, herbaty i cukru. W hostelu zapewniamy także dostęp do dwóch czystych łazienek oraz w pełni wyposażonej kuchni, co pozwala na przygotowanie własnych posiłków w wygodny sposób",
+        modalPrice: "Od 130",
         imageData: [
             {
                 path: "/images/pokoj_z_duzym_lozkiem/kotek.jpg",
@@ -224,20 +99,9 @@ export const roomCardsData: ModalData[] = [
         ]
     },
     {
-        cardTitle: "STANDART Z BALKONEM",
-        modalTitle: "POKÓJ Z DUŻYM ŁÓŻKIEM",
-        modalSubTitle: "i prywatną łazienką", 
-        modalPrice: "od 170",
-        modalRoomEquipment: [
-            "Darmowe Wi-Fi",
-            "Darmowa kawa",
-            "Darmowa herbata",
-            "Kuchnia z lodówką i mikrofalówką",
-            "Telewizja kablowa",
-            "Budzenie na życzenie",
-            "Żelazko",
-            "Suszarka do włosów",
-        ],
+        cardTitle: "Pokój dwuosobowy z balkonem i łazienką",
+        modalRoomDescription: "Komfortowy pokój dwuosobowy z łóżkiem podwójnym, prywatną łazienką oraz balkonem. W pokoju znajdą Państwo wszystko, co niezbędne do wygodnego wypoczynku, w tym między innymi wygodne łóżko małżeńskie, świeżą pościel i ręczniki, komodę, telewizor, lustro, stół obiadowy, krzesła, wieszak oraz czajnik, kawa, herbata oraz cukier. Dodatkowo, nasi goście mają dostęp do w pełni wyposażonej kuchni, gdzie mogą przygotować sobie pyszne posiłki",
+        modalPrice: "Od 160",
         imageData: [
             {
                 path: "/images/pokoj_z_prywatna_lazienka/lozko_z_sowa_2_sciany_i_okno.jpg",

@@ -3,26 +3,30 @@ import { InfoCardProps } from "../domain/domain";
 export const infoCardsData: InfoCardProps[] = [
     {
         pictureSrc: "/logos/outline-64-furnished-property.svg",
-        cardTitle: "Komfortowe, przestronne pokoje",
-        cardTxt: "Nasze pokoje charakteryzują się wysokim standardem oraz bogatym wyposażniem",
+        cardTitle: "Komfortowe i przestronne pokoje",
+        cardTxt: "Oferujemy wygodne zakwaterowanie w prywatnych pokojach i apartamentach",
+    },
+    {
+        pictureSrc: "/logos/outline-64-pin-heart.svg",
+        cardTitle: "Doskonała lokalizacja",
+        cardTxt: "Hostel umiejscowiony w centrum tuż obok Dworca Głównego i Międzynarodowych Targów Poznańskich",
+    },
+    {
+        pictureSrc: "/logos/outline-64-pan.svg",
+        cardTitle: "Wyposażona kuchnia",
+        cardTxt: "Wszystkie prywatne pokoje mają dostęp do wygodnej wyposażonej kuchni",
     },
     {
         pictureSrc: "/logos/outline-64-mobile-contact.svg",
         cardTitle: "Rezerwacja telefoniczna i online",
-        cardTxt: "tel. (+48) 784 298 186",
-        link: {
+        cardTxt: "Zadzwoń +48 784 298 186",
+        links: [{
+            goTo: "mailto:leon_adarcewicz@mckinsey.com",
+            txt: "Napisz"
+        },
+        {
             goTo: "#",
-            txt: "Rezerwój online"
-        }
-    },
-    {
-        pictureSrc: "/logos/outline-64-pin-heart.svg",
-        cardTitle: "Rewelacyjna lokalizacja",
-        cardTxt: "Hostel umiejscowiony w centrum Poznania tuż obok niezywkle istotnych punktów w mieście",
-    },
-    {
-        pictureSrc: "/logos/outline-64-wifi-2.svg",
-        cardTitle: "Bezpłatne WI-FI",
-        cardTxt: "Na terenie naszego obiektu oferujemy zupełnie darmowy dostęp do internetu",
+            txt: "Lub rezerwój online"
+        }]
     }
 ]

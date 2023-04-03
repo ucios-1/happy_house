@@ -33,8 +33,8 @@ export default function CarouselSlider() {
     <Carousel variant="dark">
       <Carousel.Item>
         <Image 
-            src="/images/happy_house_carousel_1.jpg" 
-            alt="First slide" 
+            src="/images/pokoj_z_prywatna_lazienka/lozko_z_sowa_2_sciany_i_okno.jpg" 
+            alt="lozko z poduszką-sowa, komod, lustro i wyjście na balkon" 
             width={windowSize.width} 
             height={windowSize.height} 
             className={"carousel_image"}
@@ -42,8 +42,8 @@ export default function CarouselSlider() {
       </Carousel.Item>
       <Carousel.Item>
         <Image 
-            src="/images/happy_house_carousel_2.jpg" 
-            alt="Second slide" 
+            src="/images/pokoj_z_prywatna_lazienka/telewizor_stolik_dzwi.jpg" 
+            alt="telewizor, stolik i dzwi wejściowe" 
             width={windowSize.width} 
             height={windowSize.height} 
             className={"carousel_image"}
@@ -51,8 +51,80 @@ export default function CarouselSlider() {
       </Carousel.Item>
       <Carousel.Item>
         <Image 
-            src="/images/happy_house_carousel_3.jpg" 
-            alt="Third slide" 
+            src="/images/pokoj_z_duzym_lozkiem/lozko_z_kotkiem_i_okno.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/katedra_i_domki_wieczorem.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/katedra_i_fontana.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/katedra_panorama.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      {/* <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/poznan_stare_miasto_colorful.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item> */}
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/stare_miasto_futuristic.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/stare_miasto_i_fontanna_wieczorem.png" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/stary_rynek_domki.jpg" 
+            alt="lozko z kotkiem i okno" 
+            width={windowSize.width} 
+            height={windowSize.height} 
+            className={"carousel_image"}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image 
+            src="/images/photo_slider/targi.jpg" 
+            alt="lozko z kotkiem i okno" 
             width={windowSize.width} 
             height={windowSize.height} 
             className={"carousel_image"}
