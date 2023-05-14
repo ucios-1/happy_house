@@ -43,8 +43,8 @@ export default function CarouselSlider(props: HomeProps) {
       </Carousel.Item>
       <Carousel.Item>
         <Image 
-            src="/images/pokoj_z_prywatna_lazienka/telewizor_stolik_dzwi.jpg" 
-            alt="telewizor, stolik i dzwi wejściowe" 
+            src="/images/photo_slider/targi.jpg" 
+            alt="Miejskie Targi Poznanskie" 
             width={windowSize.width} 
             height={windowSize.height} 
             className={"carousel_image"}
@@ -68,43 +68,7 @@ export default function CarouselSlider(props: HomeProps) {
             className={"carousel_image"}
         />
       </Carousel.Item>
-      <Carousel.Item>
-        <Image 
-            src="/images/photo_slider/katedra_i_fontana.jpg" 
-            alt="lozko z kotkiem i okno" 
-            width={windowSize.width} 
-            height={windowSize.height} 
-            className={"carousel_image"}
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image 
-            src="/images/photo_slider/katedra_panorama.jpg" 
-            alt="lozko z kotkiem i okno" 
-            width={windowSize.width} 
-            height={windowSize.height} 
-            className={"carousel_image"}
-        />
-      </Carousel.Item>
       {/* <Carousel.Item>
-        <Image 
-            src="/images/photo_slider/poznan_stare_miasto_colorful.jpg" 
-            alt="lozko z kotkiem i okno" 
-            width={windowSize.width} 
-            height={windowSize.height} 
-            className={"carousel_image"}
-        />
-      </Carousel.Item> */}
-      <Carousel.Item>
-        <Image 
-            src="/images/photo_slider/stare_miasto_futuristic.jpg" 
-            alt="lozko z kotkiem i okno" 
-            width={windowSize.width} 
-            height={windowSize.height} 
-            className={"carousel_image"}
-        />
-      </Carousel.Item>
-      <Carousel.Item>
         <Image 
             src="/images/photo_slider/stare_miasto_i_fontanna_wieczorem.png" 
             alt="lozko z kotkiem i okno" 
@@ -112,25 +76,7 @@ export default function CarouselSlider(props: HomeProps) {
             height={windowSize.height} 
             className={"carousel_image"}
         />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image 
-            src="/images/photo_slider/stary_rynek_domki.jpg" 
-            alt="lozko z kotkiem i okno" 
-            width={windowSize.width} 
-            height={windowSize.height} 
-            className={"carousel_image"}
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image 
-            src="/images/photo_slider/targi.jpg" 
-            alt="lozko z kotkiem i okno" 
-            width={windowSize.width} 
-            height={windowSize.height} 
-            className={"carousel_image"}
-        />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }
