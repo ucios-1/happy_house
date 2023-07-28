@@ -58,3 +58,20 @@ export type HomeProps = {
 export type DividerProps = {
     id?: string
 }
+
+export type DateStringSelection = {
+    startDate?: string;
+    endDate?: string;
+}
+
+export type DateRageSelection = {
+    startDate: Date;
+    endDate: Date;
+}
+
+export type MailProps = {
+    replyToEmail: string;
+    longInput: string;
+    startDate?: string;
+    endDate?: string;
+}

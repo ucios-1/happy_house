@@ -11,6 +11,7 @@ import { PageNavigation } from '../domain/domain';
 import About from '../components/About';
 import HomeAnch from '../components/HomeAnch';
 import Contact from '../components/Contact';
+import MailForm from '../components/helping-components/MailForm';
 
 export default function Home() {
 
@@ -71,6 +72,7 @@ export default function Home() {
       </div>
 
       <Divider id={pageNavigation.map(el => el.id === "contact" && el.id).filter(el => el !== false).join("") } />
+      <MailForm />
       <Contact />
 
       <Footer /> 
