@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g class="nc-icon-wrapper">
+    <path fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M5 12h2v1H5zM11 12h2v1h-2zM5 17h2v1H5zM11 17h2v1h-2zM17 12h2v1h-2z"/>
+    <path fill="currentColor" d="M5 12h2v1H5zM11 12h2v1h-2zM5 17h2v1H5zM11 17h2v1h-2zM17 12h2v1h-2z" data-stroke="none"/>
+    <rect width="22" height="19" x="1" y="3" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" rx="2" ry="2"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" d="M6 1v3M18 1v3"/>
+    <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M1 8h22"/>
+  </g>
+</svg>

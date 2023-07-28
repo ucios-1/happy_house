@@ -29,9 +29,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .blackLogo {
   background-color: rgb(202, 202, 202);
   border-radius: 50%;
+}
+
+.carousel_image {
+  max-width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  object-position: 15% 70%;
 }
 
 .contactAdditionInfo {
@@ -50,6 +61,23 @@ h1, h2, h3, h4, h5, h6 {
 .contactNumber:hover {
   color:  rgb(241, 182, 4);
   font-weight: 700;
+}
+
+.dividerContainer {
+  margin: 6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dividerLine {
+  width: 30%;
+  border-style: hidden;
+  border-bottom: solid 0.2px rgba(255, 193, 7, 0.7);
+}
+
+.hidden {
+  display: none;
 }
 
 .iconHomePage {
@@ -83,29 +111,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+.noPointer {
+  pointer-events: none;
+}
+
 .roomCard {
   margin: 2rem;
   border-radius: 10px;
-}
-
-.carousel_image {
-  max-width: 100%;
-  height: 60vh;
-  object-fit: cover;
-  object-position: 15% 70%;
-}
-
-.dividerContainer {
-  margin: 6rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dividerLine {
-  width: 30%;
-  border-style: hidden;
-  border-bottom: solid 0.2px rgba(255, 193, 7, 0.7);
 }
 
 .footer {
