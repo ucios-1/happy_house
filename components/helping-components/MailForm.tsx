@@ -7,12 +7,8 @@ import { useState, useEffect } from "react";
 import { DateStringSelection, MailProps } from "../../domain/domain";
 
 
-type MailFormProps = {
-    onFormSubmit: (some: any) => void
-}
 
-
-export default function MailForm (props: MailFormProps) {
+export default function MailForm () {
     const [toggle, setToggle] = useState(false)
     const [datesSelection, setDatesSelection] = useState((): DateStringSelection => {
         return {}
