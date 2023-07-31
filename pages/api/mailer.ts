@@ -10,8 +10,8 @@ const transporter = NodeMailer.createTransport(
         port: 587,
         secure: true,
         auth: {
-            user: "a.leanid@gmail.com",
-            pass: "zgtctdxbnosryjvw"
+            user: "some_mail@gmail.com",
+            pass: "some_password"
         }
     }
 )
@@ -28,11 +28,10 @@ export default async function handler (req: NextApiRequest, res: NextApiResponse
         const mailProps = (req.body as MailProps)
      
         const mailOption: Mail.Options = {
-            from: "a.leanid@gmail.com",
-            to: "ucios@o2.pl",
+            from: "some_sender@gmail.com",
+            to: "some_receiver@gmail.com",
             subject: `HHH kontakt od ${mailProps.replyToEmail}`,
-            text: "Привет кума!",
-            html: `Привет кума!<br />
+            html: `Привет!<br />
                 Танцуй! Тебе письмо :) <br />
                 <br />
                 <b>Ответить:</b>  ${mailProps.replyToEmail} <br />
@@ -41,7 +40,7 @@ export default async function handler (req: NextApiRequest, res: NextApiResponse
                 <b>Написал:</b> ${mailProps.longInput} <br />
                 <br />
                 А на этом все, <br />
-                Самая лучшая интернет страница от кума ;)
+                HHHostel
 `
         }
 
